@@ -1,0 +1,35 @@
+/* Navbar styling */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vw;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.logo a{
+    color: #000;
+    text-decoration: none;
+
+}
+
+.menu{
+    display: flex;
+    gap: 5vw;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.2vw;
+    transition: all .5s ease-in;
+}
+
+.menu a:hover{
+    opacity: 0.6;
+}
